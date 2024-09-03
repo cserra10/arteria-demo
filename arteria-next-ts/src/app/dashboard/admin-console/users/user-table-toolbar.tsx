@@ -4,6 +4,7 @@ import type { UseSetStateReturn } from 'src/hooks/use-set-state';
 
 import { useCallback } from 'react';
 
+import Card from '@mui/material/Card';
 import Stack from '@mui/material/Stack';
 import Select from '@mui/material/Select';
 import MenuList from '@mui/material/MenuList';
@@ -54,10 +55,10 @@ export function UserTableToolbar({ filters, options, onResetPage }: Props) {
   return (
     <>
       <Stack
+        sx={{ mb: 3 }}
         spacing={2}
         alignItems={{ xs: 'flex-end', md: 'center' }}
         direction={{ xs: 'column', md: 'row' }}
-        sx={{ p: 2.5, pr: { xs: 2.5, md: 1 } }}
       >
         <FormControl sx={{ flexShrink: 0, width: { xs: 1, md: 200 } }}>
           <InputLabel htmlFor="user-filter-role-select-label">Role</InputLabel>
