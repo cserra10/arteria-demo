@@ -31,7 +31,6 @@ export function NavList({
   const pathname = usePathname();
 
   const navItemRef = useRef<HTMLButtonElement | null>(null);
-
   const active = useActiveLink(data.path, !!data.children);
 
   const [openMenu, setOpenMenu] = useState(false);

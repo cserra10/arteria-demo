@@ -13,12 +13,12 @@ export const navData = [
     items: [
       {
         title: 'Users Management',
-        path: paths.dashboard.adminConsole.users,
+        path: paths.dashboard.adminConsole.users.root,
         icon: <Iconify icon="hugeicons:user" />,
       },
       {
         title: 'Groups Management',
-        path: paths.dashboard.adminConsole.groups,
+        path: paths.dashboard.adminConsole.groups.root,
         icon: <Iconify icon="hugeicons:user-group" />,
       },
     ],

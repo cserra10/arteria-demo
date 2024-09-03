@@ -45,8 +45,15 @@ export const paths = {
     root: ROOTS.DASHBOARD,
     adminConsole: {
       root: `${ROOTS.DASHBOARD}/admin-console`,
-      users: `${ROOTS.DASHBOARD}/admin-console/users`,
-      groups: `${ROOTS.DASHBOARD}/admin-console/groups`,
+      users: {
+        root: `${ROOTS.DASHBOARD}/admin-console/users`,
+        edit: (id: string) => `${ROOTS.DASHBOARD}/admin-console/users/${id}/edit`,
+        new: `${ROOTS.DASHBOARD}/admin-console/users/new`,
+      },
+      groups: {
+        root: `${ROOTS.DASHBOARD}/admin-console/groups`,
+        edit: (id: string) => `${ROOTS.DASHBOARD}/admin-console/groups/${id}/edit`,
+      }
     },
   },
 };
