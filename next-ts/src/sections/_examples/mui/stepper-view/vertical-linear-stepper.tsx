@@ -21,8 +21,8 @@ const steps = [
               and geographical locations you want your ads to show on, and more.`,
   },
   {
-    label: 'Create an ad group',
-    description: 'An ad group contains one or more ads which target a shared set of keywords.',
+    label: 'Create an ad admin-console',
+    description: 'An ad admin-console contains one or more ads which target a shared set of keywords.',
   },
   {
     label: 'Create an ad',

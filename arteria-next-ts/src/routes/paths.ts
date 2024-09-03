@@ -43,12 +43,10 @@ export const paths = {
   // DASHBOARD
   dashboard: {
     root: ROOTS.DASHBOARD,
-    two: `${ROOTS.DASHBOARD}/two`,
-    three: `${ROOTS.DASHBOARD}/three`,
-    group: {
-      root: `${ROOTS.DASHBOARD}/group`,
-      five: `${ROOTS.DASHBOARD}/group/five`,
-      six: `${ROOTS.DASHBOARD}/group/six`,
+    adminConsole: {
+      root: `${ROOTS.DASHBOARD}/admin-console`,
+      users: `${ROOTS.DASHBOARD}/admin-console/users`,
+      groups: `${ROOTS.DASHBOARD}/admin-console/groups`,
     },
   },
 };

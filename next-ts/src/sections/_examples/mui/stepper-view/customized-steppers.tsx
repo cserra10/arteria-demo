@@ -18,7 +18,7 @@ import { Iconify } from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 
-const STEPS = ['Select campaign settings', 'Create an ad group', 'Create an ad'];
+const STEPS = ['Select campaign settings', 'Create an ad admin-console', 'Create an ad'];
 
 const QontoConnector = styled(StepConnector)(({ theme }) => ({
   [`&.${stepConnectorClasses.alternativeLabel}`]: {
@@ -159,7 +159,7 @@ function getStepContent(step: number) {
     case 0:
       return 'Select campaign settings...';
     case 1:
-      return 'What is an ad group anyways?';
+      return 'What is an ad admin-console anyways?';
     case 2:
       return 'This is the bit I really care about!';
     default:

@@ -94,6 +94,8 @@ export function DashboardLayout({ sx, children, data }: DashboardLayoutProps) {
               signIn: false,
               purchase: false,
               helpLink: false,
+              workspaces: false,
+              contacts: false,
             }}
             slots={{
               topArea: (
@@ -116,7 +118,7 @@ export function DashboardLayout({ sx, children, data }: DashboardLayoutProps) {
                     display: 'none',
                   },
                   [`& [data-area="right"]`]: {
-                    gap: { xs: 0, sm: 0.75 },
+                    gap: { xs: 0, sm: 2 },
                   },
                   ...(isNavHorizontal && {
                     bgcolor: 'var(--layout-nav-bg)',

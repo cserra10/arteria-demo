@@ -31,12 +31,12 @@ const TABS = [
   },
   { value: 'four', icon: <Iconify icon="eva:headphones-fill" width={24} />, label: 'Item four' },
   {
-    value: 'five',
+    value: 'users',
     icon: <Iconify icon="eva:headphones-fill" width={24} />,
-    label: 'Item five',
+    label: 'Item users',
     disabled: true,
   },
-  { value: 'six', icon: <Iconify icon="eva:headphones-fill" width={24} />, label: 'Item six' },
+  { value: 'groups', icon: <Iconify icon="eva:headphones-fill" width={24} />, label: 'Item groups' },
   { value: 'seven', icon: <Iconify icon="eva:headphones-fill" width={24} />, label: 'Item seven' },
 ];
 

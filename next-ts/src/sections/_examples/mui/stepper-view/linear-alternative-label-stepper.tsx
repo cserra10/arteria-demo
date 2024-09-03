@@ -13,7 +13,7 @@ import { varAlpha } from 'src/theme/styles';
 
 // ----------------------------------------------------------------------
 
-const steps = ['Select campaign settings', 'Create an ad group', 'Create an ad'];
+const steps = ['Select campaign settings', 'Create an ad admin-console', 'Create an ad'];
 
 export function LinearAlternativeLabel() {
   const [activeStep, setActiveStep] = useState(0);
