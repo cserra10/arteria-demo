@@ -1,8 +1,8 @@
 {
-  "name": "@minimal-kit/starter-next-ts",
-  "author": "Minimals",
-  "version": "6.0.1",
-  "description": "Next Starter & TypeScript",
+  "name": "arteria-next-ts",
+  "author": "Cesar Serrano",
+  "version": "1.0.0",
+  "description": "Next & TypeScript Dashboard",
   "private": true,
   "scripts": {
     "dev": "next dev -p 8083",

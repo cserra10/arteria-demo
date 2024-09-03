@@ -1,7 +1,7 @@
 {
-  "name": "@minimal-kit/mock-server",
+  "name": "mock-api",
   "description": "Mock server & assets",
-  "version": "6.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev -p 7272",
@@ -18,9 +18,6 @@
     "dev:ts": "yarn dev & yarn ts:watch",
     "ts": "tsc --noEmit --incremental",
     "ts:watch": "yarn ts --watch"
-  },
-  "engines": {
-    "node": "20.x"
   },
   "packageManager": "yarn@1.22.22",
   "dependencies": {

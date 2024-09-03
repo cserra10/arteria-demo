@@ -1,6 +1,6 @@
 ## Prerequisites
 
-- Node.js 20.x (Recommended)
+- Node.js  20.x (Recommended)
 
 ## Installation
 
